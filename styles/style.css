@@ -69,7 +69,7 @@
 .aligned-text {
   font-weight: 700;
   font-size: 100px;
-  line-height: 118%;
+  line-height: 1.18;
   text-transform: uppercase;
   color: #fff;
   display: block;
@@ -160,6 +160,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .card__title {
@@ -180,15 +181,15 @@
 }
 
 .card_type_film {
-  background-image: url(../Images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(../Images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(../Images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .more {
